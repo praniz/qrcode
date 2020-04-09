@@ -1,0 +1,140 @@
+
+.bg-white{
+	background-color: white;
+}
+
+.header-admin{
+	text-align: -webkit-center;
+    position: relative;
+    padding-top: 4%;
+}
+/*
+.sub-header {
+	text-align: -webkit-left;
+    background-color: #f3f6f7;
+}*/
+
+.form-admin{
+	border: 1px solid #ece6e6;
+    position: relative;
+    padding-left: 5%;
+}
+
+.note-admin{
+	color: red;
+}
+
+.button-mod {
+	padding: 8px 16px;
+    border: none;
+    font-size: 16px;
+    margin-bottom: 3%;
+}
+.center{
+	text-align: -webkit-center;
+}
+
+.view-img{
+    display: block;
+     margin: 2% auto 2%;
+    width: 20%;
+
+}
+
+.pos-edit{
+padding: 2%;
+    text-align: -webkit-center;
+    }    
+
+ .img-max  { max-width: 100px;}
+
+ .img-max:hover {
+  opacity: 0.3;
+ }
+
+ #footer{
+    padding-top: 5%;
+ }
+
+ /*CHECKBOX*/
+
+ /* Customize the label (the container) */
+.squaredOne {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+/*  font-size: 22px;*/
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+}
+
+/* Hide the browser's default checkbox */
+.squaredOne input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+/*  background-color: #eee;*/
+  border: 1px solid #12f998;
+}
+
+/* On mouse-over, add a grey background color */
+.squaredOne:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.squaredOne input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.squaredOne input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.squaredOne .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+nav {
+   font-family: 'Athiti', sans-serif;
+}
+
+/*.panel-body{
+  text-align: center;
+}*/
+
+.fa{
+  padding: 4%;
+}
+
